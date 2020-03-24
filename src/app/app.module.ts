@@ -11,6 +11,8 @@ import { AboutComponent } from './ui/about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './ui/footer/footer.component';
 
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +26,8 @@ import { FooterComponent } from './ui/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
