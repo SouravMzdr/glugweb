@@ -7,11 +7,12 @@ import { NavbarComponent } from './ui/navbar/navbar.component';
 import { IntroComponent } from './ui/intro/intro.component';
 import { ServicesComponent } from './ui/services/services.component';
 import { PortfolioComponent } from './ui/portfolio/portfolio.component';
-import { AboutComponent } from './ui/about/about.component';
+import { TimelineComponent } from './ui/timeline/timeline.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './ui/footer/footer.component';
 
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { AboutComponent } from './ui/about/about.component';
 
 @NgModule({
   declarations: [
@@ -20,9 +21,10 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     IntroComponent,
     ServicesComponent,
     PortfolioComponent,
-    AboutComponent,
+    TimelineComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
