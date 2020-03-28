@@ -10,9 +10,11 @@ import { PortfolioComponent } from './ui/portfolio/portfolio.component';
 import { TimelineComponent } from './ui/timeline/timeline.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './ui/footer/footer.component';
+import { AboutComponent } from './ui/about/about.component';
+import { HomeComponent } from './home/home.component';
+import { PastEventsComponent } from './past-events/past-events/past-events.component';
 
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
-import { AboutComponent } from './ui/about/about.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { AboutComponent } from './ui/about/about.component';
     TimelineComponent,
     ContactComponent,
     FooterComponent,
-    AboutComponent
+    AboutComponent,
+    HomeComponent,
+    PastEventsComponent
   ],
   imports: [
     BrowserModule,
