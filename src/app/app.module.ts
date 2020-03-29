@@ -12,9 +12,11 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './ui/footer/footer.component';
 import { AboutComponent } from './ui/about/about.component';
 import { HomeComponent } from './home/home.component';
-import { PastEventsComponent } from './past-events/past-events/past-events.component';
 
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+// import { PastEventsModule } from './past-events/past-events.module';
+
+// import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -27,13 +29,15 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     ContactComponent,
     FooterComponent,
     AboutComponent,
-    HomeComponent,
-    PastEventsComponent
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    // PastEventsModule
+    // HttpClientModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
