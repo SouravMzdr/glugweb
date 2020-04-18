@@ -1,62 +1,35 @@
+
 section#contact {
     background-color: #212529;
     background-image: url("../../assets/img/map-image.png");
     background-repeat: no-repeat;
     background-position: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    }
+    
+    section#contact .page-section{
+        padding-top: 50px;
+        padding-bottom: 10px;
     }
 
     section#contact .section-heading {
     color: #fff;
     }
 
-    section#contact .form-group {
-    margin-bottom: 25px;
-    }
-
-    section#contact .form-group input,
-    section#contact .form-group textarea {
-    padding: 20px;
-    }
-
-    section#contact .form-group input.form-control {
-    height: auto;
-    }
-
-    section#contact .form-group textarea.form-control {
-    height: 248px;
-    }
-
-    section#contact .form-control:focus {
-    border-color: #fed136;
-    box-shadow: none;
-    }
-
-    section#contact ::-webkit-input-placeholder {
-    font-weight: 700;
-    color: #ff4500;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    }
-
-    section#contact :-moz-placeholder {
-    font-weight: 700;
-    color: #ff4500;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    }
-
-    section#contact ::-moz-placeholder {
-    font-weight: 700;
-    color: #ff4500;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    }
-
-    section#contact :-ms-input-placeholder {
-    font-weight: 700;
-    color: #ff4500;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    .social{
+        padding-top: 100px;
     }
     
     ul.social-buttons {
     margin-bottom: 50;
+    margin-left: -40px;
+    font-size: 40px ;
+    transition:  0.3s;
+    }
+
+    ul.social-buttons:hover {
+        font-size: 42px ;
     }
     
     ul.social-buttons li a {
@@ -70,9 +43,16 @@ section#contact {
     border-radius: 100%;
     outline: none;
     background-color: #212529;
-    align-content: center;
     }
 
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
     background-color: #fed136;
+    }
+
+    .fas{
+        color: white;
+    }
+
+    .fas:hover{
+        color: #fed136;
     }

@@ -1,0 +1,31 @@
+.about{
+    padding: 70px 0;
+}
+h4{
+    font-family: 'Dancing Script';
+    font-weight: 1000;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+.img-fluid{
+    max-height: 300px;
+}
+
+.vl {
+    border-right: 6px solid rgb(107, 107, 107);
+    height: 300px;
+    margin-left: 0px;
+    margin-right: 30px;
+  }
+
+@media only screen and (max-width: 800px) {
+    .hide-mobile {
+        display: none;    
+    }
+    .about{
+        padding-top: 50px;
+    }
+    .img-fluid{
+        display: none;
+    }
+}

@@ -1,0 +1,14 @@
+
+.col-4:hover{
+    font-weight:bolder ;
+}
+
+section#team{
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+.credit{
+    background-color:rgb(240, 240, 240);
+    padding: 10px;
+}

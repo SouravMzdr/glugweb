@@ -10,59 +10,94 @@ export class PastEventsComponent implements OnInit {
 
   constructor() { }
 
-  galleryOptions: NgxGalleryOptions[];
-  galleryImages: NgxGalleryImage[];
+  galleryOptions_technovus: NgxGalleryOptions[];
+  galleryImages_technovus: NgxGalleryImage[];
+
+  galleryOptions_programmers: NgxGalleryOptions[];
+  galleryImages_programmers: NgxGalleryImage[];
+
+  galleryOptions=[
+    { "imagePercent": 80, "thumbnailsPercent": 20, "thumbnailsColumns": 6, "thumbnailsMargin": 0, "thumbnailMargin": 0,"lazyLoading":true},
+    { "breakpoint": 500, "width": "100%", "height": "300px", "thumbnailsColumns": 3 ,"lazyLoading":true},
+    { "breakpoint": 300, "width": "100%", "height": "200px", "thumbnailsColumns": 2 ,"lazyLoading":true}
+];
 
   ngOnInit() {
 
-    this.galleryOptions = [
-        { "imagePercent": 80, "thumbnailsPercent": 20, "thumbnailsColumns": 6, "thumbnailsMargin": 0, "thumbnailMargin": 0,"lazyLoading":true},
-        { "breakpoint": 500, "width": "500px", "height": "300px", "thumbnailsColumns": 3 ,"lazyLoading":true},
-        { "breakpoint": 300, "width": "100%", "height": "200px", "thumbnailsColumns": 2 ,"lazyLoading":true}
-      // {
-      //     // width: '600px',
-      //     // height: '400px',
-      //     thumbnailsColumns: 3,
-      //     imageAnimation: NgxGalleryAnimation.Slide,
-      //     lazyLoading:true,
-      //     thumbnailsMargin: 0, 
-      //     thumbnailMargin: 0
+    this.galleryOptions_technovus = this.galleryOptions;
+    this.galleryOptions_programmers= this.galleryOptions;
 
-      // },
-      // // max-width 800
-      // {
-      //     breakpoint: 800,
-      //     width: '100%',
-      //     height: '600px',
-      //     imagePercent: 80,
-      //     thumbnailsPercent: 20,
-      //     thumbnailsMargin: 20,
-      //     thumbnailMargin: 20
-      // },
-      // // max-width 400
-      // {
-      //     breakpoint: 400,
-      //     preview: false
-      // }
-  ];
-
-  this.galleryImages = [
+  this.galleryImages_technovus = [
       {
-          small: '../../../assets/img/header-bg.jpg',
-          medium: '../../../assets/img/header-bg.jpg',
-          big: '../../../assets/img/header-bg.jpg'
+          small: '../../../assets/img/codenovus 1.jpeg',
+          medium: '../../../assets/img/codenovus 1.jpeg',
+          big: '../../../assets/img/codenovus 1.jpeg'
       },
       {
-          small: '../../../assets/img/glug main new logo blue.png',
-          medium: '../../../assets/img/glug main new logo blue.png',
-          big: '../../../assets/img/glug main new logo blue.png'
+          small: '../../../assets/img/codenovus 2.jpeg',
+          medium: '../../../assets/img/codenovus 2.jpeg',
+          big: '../../../assets/img/codenovus 2.jpeg'
       },
       {
-          small: '../../../assets/img/glug 200 sc.jpg',
-          medium: '../../../assets/img/glug 200 sc.jpg',
-          big: '../../../assets/img/glug 200 sc.jpg'
+          small: '../../../assets/img/codenovus 3.jpeg',
+          medium: '../../../assets/img/codenovus 3.jpeg',
+          big: '../../../assets/img/codenovus 3.jpeg'
+      },
+      {
+        small: '../../../assets/img/wod 1.jpeg',
+        medium: '../../../assets/img/wod 1.jpeg',
+        big: '../../../assets/img/wod 1.jpeg'
+      },
+      {
+        small: '../../../assets/img/wod 2.jpeg',
+        medium: '../../../assets/img/wod 2.jpeg',
+        big: '../../../assets/img/wod 2.jpeg'
+      },
+      {
+        small: '../../../assets/img/wod 3.jpeg',
+        medium: '../../../assets/img/wod 3.jpeg',
+        big: '../../../assets/img/wod 3.jpeg'
+      },
+      {
+        small: '../../../assets/img/wod 4.jpeg',
+        medium: '../../../assets/img/wod 4.jpeg',
+        big: '../../../assets/img/wod 4.jpeg'
       }
   ];
+
+
+  this.galleryImages_programmers = [
+    {
+        small: '../../../assets/img/codingspree 1.jpeg',
+        medium: '../../../assets/img/codingspree 1.jpeg',
+        big: '../../../assets/img/codingspree 1.jpeg'
+    },
+    {
+        small: '../../../assets/img/codingspree 2.jpeg',
+        medium: '../../../assets/img/codingspree 2.jpeg',
+        big: '../../../assets/img/codingspree 2.jpeg'
+    },
+    {
+        small: '../../../assets/img/codingspree 3.jpeg',
+        medium: '../../../assets/img/codingspree 3.jpeg',
+        big: '../../../assets/img/codingspree 3.jpeg'
+    },
+    {
+      small: '../../../assets/img/codingspree 4.jpeg',
+      medium: '../../../assets/img/codingspree 4.jpeg',
+      big: '../../../assets/img/codingspree 4.jpeg'
+    },
+    {
+      small: '../../../assets/img/webinar 1.jpeg',
+      medium: '../../../assets/img/webinar 1.jpeg',
+      big: '../../../assets/img/webinar 1.jpeg'
+    },
+    {
+      small: '../../../assets/img/webinar 2.jpeg',
+      medium: '../../../assets/img/webinar 2.jpeg',
+      big: '../../../assets/img/webinar 2.jpeg'
+    }
+  ]
 }
 }
 
