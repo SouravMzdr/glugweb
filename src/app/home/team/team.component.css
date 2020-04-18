@@ -1,8 +1,12 @@
 
 .col-4:hover{
     font-weight:bolder ;
+    
 }
+.row:hover{
+    font-weight:bolder ;
 
+}
 section#team{
     padding-top: 100px;
     padding-bottom: 0;

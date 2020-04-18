@@ -60,8 +60,8 @@
     position: absolute;
     z-index: 100;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 20%;
+    height: 20%;
     margin-left: 0;
     text-align: center;
     color: white;
@@ -186,4 +186,17 @@
     .timeline > li.timeline-inverted > .timeline-panel {
         padding: 0 100px 20px 20px;
     }
+    }
+    .show-mobile{
+        display: none;
+    }
+
+    @media only screen and (max-width: 800px) {
+        .hide-mobile {
+            display: none;    
+        }
+        .show-mobile{
+            display: block;
+        }
+
     }

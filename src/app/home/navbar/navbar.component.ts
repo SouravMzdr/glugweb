@@ -14,8 +14,8 @@ export class NavbarComponent implements OnInit {
 
   @HostListener('window:scroll', [])
   onWindowScroll() {
-    if (document.body.scrollTop > 200 ||     
-    document.documentElement.scrollTop > 200) {
+    if (document.body.scrollTop > 2 ||     
+    document.documentElement.scrollTop > 2) {
       document.getElementById('mainNav').classList.add('navbar-color');
     }
     else{
