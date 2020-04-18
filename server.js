@@ -3,7 +3,7 @@ const path = require('path');
 const compression = require('compression')
 var cors = require('cors');
 const app = express();
-// app.use(compression())
+app.use(compression())
 app.use(cors());
 
 
