@@ -13,7 +13,7 @@ import { FooterComponent } from './home/footer/footer.component';
 import { AboutComponent } from './home/about/about.component';
 import { HomeComponent } from './home/home.component';
 
-import { AngularFontAwesomeModule } from 'angular-font-awesome';
+// import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { TeamComponent } from './home/team/team.component';
 // import { PastEventsModule } from './past-events/past-events.module';
 
@@ -36,7 +36,7 @@ import { TeamComponent } from './home/team/team.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularFontAwesomeModule,
+    // AngularFontAwesomeModule,
     // PastEventsModule
     // HttpClientModule,
 
