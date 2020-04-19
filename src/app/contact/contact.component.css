@@ -1,4 +1,6 @@
-
+fa-icon{
+    color: rgb(240, 240, 240);
+}
 section#contact {
     background-color: #212529;
     background-image: url("../../assets/img/map-image.png");
