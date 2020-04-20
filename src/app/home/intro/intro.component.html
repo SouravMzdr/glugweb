@@ -23,23 +23,33 @@
 <div class="vheader">
     <div class="overlay">  
         <!-- Insert Scrol down in here-->
-        <div class="hoverWrapper">
+        <!-- <div class="hoverWrapper">
           <div class="default">
 
                 <h4 >Scroll down to get started</h4>
 
           </div>
           <div class="hoverShow1">
-            <!-- <i class="fas fa-angle-double-down fa-10x"></i> -->
 
             <h1 class="white-text my-1">
-              <i class="fas fa-angle-double-down "></i>
+              <fa-icon [icon]='faAngleDoubleDown'></fa-icon>
+
           </h1>
+          </div>
+        </div> -->
+
+        <div class="container" style="height: inherit;">
+          <div class="row align-items-end justify-content-center">
+            <div class="col-12 text-center">
+              <h4>Scroll Down to get started</h4>
+              <div> <fa-icon [icon]='faAngleDoubleDown'></fa-icon> </div>
+
+            </div>
           </div>
         </div>
     </div> 
      <video id="videobg" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-     <source src="../../../assets/videos/glug compress.webm" type="video/mp4">
+     <source src="../../../assets/videos/glug compress 3.webm" type="video/mp4">
     </video> 
 </div>
 
@@ -57,7 +67,8 @@
     </div>
     <div class="col-12 xs-12 align-self-end text-center">
       Scroll Down <br>
-      <i class="fas fa-angle-double-down fa-lg"></i>
+      <!-- <i class="fas fa-angle-double-down fa-lg"></i> -->
+      <fa-icon [icon]='faAngleDoubleDown'></fa-icon>
       <br>
     </div>
   </div>

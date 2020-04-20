@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-// import { HttpClient } from '@angular/common/http';
-import * as AOS from 'aos';
+import { init }  from 'aos';
+import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-intro',
@@ -13,15 +13,16 @@ export class IntroComponent implements OnInit {
 
   // public req =  "http://coderscommunity.herokuapp.com/"
 
-
+  faAngleDoubleDown =  faAngleDoubleDown
 
   ngOnInit() {
-    AOS.init({
+    init({
       easing:'ease',
       duration:2000,
     });
 
-    AOS.init({
+
+    init({
       // disable: function () {
       //   var maxWidth = 800;
       //   return window.innerWidth < maxWidth;

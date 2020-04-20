@@ -31,7 +31,9 @@ section#contact {
     }
 
     ul.social-buttons:hover {
-        font-size: 42px ;
+        font-size: 43px ;
+        color: #fed136;        
+
     }
     
     ul.social-buttons li a {
