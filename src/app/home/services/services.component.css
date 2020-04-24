@@ -56,7 +56,14 @@
 }
 .card-container .card a .card--hover h2 {
   margin: 20px 0;
-}
+  color: #fec503;
+
+} 
+
+/* .card--hover{
+    border: 2px solid #fec503;
+  margin: 10px;
+} */
 .card-container .card a .card--hover p {
   font-weight: normal;
   line-height: 1.5;

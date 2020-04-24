@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './ui/navbar/navbar.component';
 import { IntroComponent } from './home/intro/intro.component';
 import { ServicesComponent } from './home/services/services.component';
-import { PortfolioComponent } from './home/portfolio/portfolio.component';
+// import { PortfolioComponent } from './home/portfolio/portfolio.component';
+import { ProjectsComponent } from './home/projects/projects.component'
 import { TimelineComponent } from './home/timeline/timeline.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './ui/footer/footer.component';
@@ -23,7 +24,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     NavbarComponent,
     IntroComponent,
     ServicesComponent,
-    PortfolioComponent,
+    ProjectsComponent,
     TimelineComponent,
     ContactComponent,
     FooterComponent,
