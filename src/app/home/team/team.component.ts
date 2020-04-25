@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-team',
@@ -11,5 +13,8 @@ export class TeamComponent implements OnInit {
 
   ngOnInit() {
   }
+  faLinkedin = faLinkedin;
+  faEnvelope = faEnvelope;
+
 
 }

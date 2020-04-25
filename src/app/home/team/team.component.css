@@ -31,3 +31,8 @@ section#team{
     background-color:rgb(240, 240, 240);
     padding: 10px;
 }
+
+.list-inline-item a{
+    color: #6c757d;
+    font-size: 20px;
+}
