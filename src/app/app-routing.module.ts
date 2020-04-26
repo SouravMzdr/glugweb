@@ -10,6 +10,7 @@ const routes: Routes = [
     path: 'past-events',
     loadChildren: () => import('./past-events/past-events.module').then(m => m.PastEventsModule)
   },
+  { path: "**",redirectTo:'' }
 
 ];
 

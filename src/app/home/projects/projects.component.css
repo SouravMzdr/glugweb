@@ -76,4 +76,6 @@ flip card
 
  
 
-  
+  .modal{
+    z-index: 10002;
+  }

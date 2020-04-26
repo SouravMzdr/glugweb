@@ -1,5 +1,6 @@
 #mainNav {
     background-color: transparent;
+    z-index: 10001;
     }
 
     #mainNav .navbar-toggler {
