@@ -34,7 +34,7 @@ export class PastEventsComponent implements OnInit {
 
 
   galleryOptions=[
-    { "imagePercent": 80, "thumbnailsPercent": 20, "thumbnailsColumns": 4, "thumbnailsMargin": 0, "thumbnailMargin": 0,"lazyLoading":true},
+    { "imagePercent": 80, "thumbnailsPercent": 20, "thumbnailsColumns": 4, "thumbnailsMargin": 0, "thumbnailMargin": 0,"lazyLoading":true,"previewCloseOnClick":true},
     { "breakpoint": 500, "width": "100%", "height": "300px", "thumbnailsColumns": 3 ,"lazyLoading":true},
     { "breakpoint": 300, "width": "100%", "height": "200px", "thumbnailsColumns": 2 ,"lazyLoading":true}
   ];
